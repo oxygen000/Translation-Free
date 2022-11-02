@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: #0f3549;
+}
+/*Nav Bar*/
+.nav-bar{
+background-color: #022C43;
+padding: 5px 20px;
+
+
+}
+.nav-itam{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-itam a{
+    color: #FFD700;
+    text-decoration: none;
+
+}
+.nav-itam li{
+    font-size: 18px;
+    padding: 15px 5px;
+    font-family: cursive;
+}
+.nav-itam li a{
+    display: block;
+}
+.logo{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sing-in{
+ margin-top: 18px;
+}
+.nav-itam a:hover{
+    color: wheat;
+}
+.nav-itam a:active{
+    color: white;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    background-color: #022C43;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    max-width: 1900;
+    flex-wrap: wrap;
+}
+footer p{
+    color: #FFD700;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+
+}
+.footer-icons i{
+    font-size: 25px;
+    color: #FFD700;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+}
+.footer-icons .fa:hover{
+    color: wheat;
+}
+.footer-icons .fa:active{
+    color: white;
+}
+
+/*page*/
+.page{
+   
+    width: 90vw;
+    max-width: 1444px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: 784px;
+}
+/*sing in*/
+.box-in{
+    position: relative;
+    width: 380px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #1c4257;
+    justify-content: center;
+    text-align: center;
+    margin: 10% 40%;
+
+}
+.page-sing{
+    text-align: center;
+    
+}
+.box{
+    color: #FFD700;
+}
+.box h2{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.links
+{
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    color: #FFD700;
+    margin-top: 20px;
+}
+.inputbox{
+    margin-top: 13%;
+    font-size: 20px;
+
+}
+input{
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    background-color: #1a5972;
+    color: #FFD700;
+    border: 0;
+    border-radius: 15px;
+   
+}
+.login-btn button {
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    color: #FFD700;
+    background-color: #0f3549;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.login-btn button:hover{
+    background: #0c1920;
+}
+.login-btn button:active{
+background-color: #0c1114;
+}
+/*sing up*/
+
+.box-up{
+    position: relative;
+    width: 380px;
+    height: 635px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #1c4257;
+    justify-content: center;
+    text-align: center;
+    margin: 0 40%;
+    color: #FFD700;
+    font-size: 22px;
+}
+.sing-up-btn button {
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    color: #FFD700;
+    background-color: #0f3549;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.sing-up-btn button:hover{
+    background: #0c1920;
+}
+.sing-up-btn button:active{
+background-color: #0c1114;
+}
+.inputbox-up{
+    margin-top: 12px;
+}
+.sing-up-btn h3{
+    margin-top: 20px;
+}
+/*Abdut*/
+.abut-paeg {
+    text-align: center;
+    color: #FFD700;
+}
+.abut-paeg h2{
+    font-size: 50px;
+    font-family: monospace;
+}
+.abut-paeg p {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abut-paeg img{
+    border-radius: 7px;
+    background-blend-mode:multiply;
+    background-color: rgba(0, 0, 0, 0.9) ,rgba(0, 0, 0, 0.9);
+    background-size: cover;
+   
+}
+/*Plus*/
+.plus-sub {
+    text-align: center;
+    font-size: 50px;
+    color: #FFD700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 14px;
+
+}
+.plus-page{
+    display: flex;
+    justify-content: space-between;
+}
+.plus-card{
+    width: 350px;
+    height: 480px;
+    background-color: #1a5972;
+    border-radius: 13px;
+    text-align: center;
+    color: #FFD700;
+}
+.plus-card h2{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+.plus-card p{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.plus-card span{
+    font-size: 40px; 
+}
+.btn{
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+    color: #FFD700;
+    background-color: #0f3549;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: serif;
+    transition: box-shadow 0.30s;
+}
+.btn:hover{
+    background: #0c1920;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0 ,0.50);
+}
+.btn:active{
+background-color: #0c1114;
+}
+/*Services*/
+.page-tr{
+   overflow: hidden;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1em;
+        margin-bottom: 40px;
+        margin-top: 35px;
+        align-items: center;
+}
+.services-fr{
+    width: 480px;
+    height: 480px;
+    background-image: url(imaegs/French.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode:multiply;
+    border-radius: 10px;
+    color: #FFD700;
+    text-align: center;
+}
+.services-fr h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services-fr p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.services-fr span{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-fr{
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+    color: #FFD700;
+    background-color: #0f3549;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: serif;
+    transition: box-shadow 0.30s;
+}
+.btn-fr:hover{
+    background: #0c1920;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0 ,0.50);
+}
+.btn-fr:active{
+background-color: #0c1114;
+}
+.services-sp{
+    background-image: url(imaegs/Spanish.jpg);
+    margin-top: 20px;
+}
+.services-pe{
+    background-image: url(imaegs/Persian.jpg);
+    margin-top: 20px;
+}
+.services-eg{
+    background-image: url(imaegs/Einglish.jpg);
+    margin-top: 20px;
+}
+.services-ch{
+    background-image: url(imaegs/Chinese.jpg);
+    margin-top: 20px;
+}
+.services-ar{
+    background-image: url(imaegs/Arabic.jpg);
+    margin-top: 20px;
+}
+/*Home*/
+.home-page-1{
+   background-color: #1c4257;
+   border-radius: 15px;
+   text-align: center;
+   height: 670px;
+   color: #FFD700;
+}
+.home-page-1 h1{
+    color: #FFD700;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.img-1{
+    width: 560px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 21px;
+    
+}
+.home-page-1 p{
+    font-size: 25px;
+}
+.home-page-2{
+    background-color: #164253;
+    border-radius: 15px;
+    width: auto;
+    height: 680px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-image: url(imaegs/Home-2.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode:multiply;
+    color: #FFD700;
+    text-align: center;
+}
+.home-page-2 h1{
+    text-align: center;
+    color: #FFD700;
+    margin-bottom: 40px;
+   
+}
+.home-page-2 p{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.icon-home .fa-solid{
+    color: #FFD700;
+    font-size: 60px;
+    margin: 0 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
